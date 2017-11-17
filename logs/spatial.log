@@ -1,0 +1,106 @@
+==========> Opened at 2017-11-16 12:37:03.0852534 +0100 CET
+debug Executing [spatial.exe build build-config UnityClient UnityWorker]
+debug Current directory = C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug Found project root at C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug Found project root at C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug Building worker assemblies.
+info Generating bridge settings for UnityClient.
+debug Worker 'UnityClient' defined at 'C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\workers\unity\spatialos.UnityClient.worker.json' has no managed launch configuration defined.
+info Generating bridge settings for UnityWorker.
+info Generating managed worker configuration for UnityWorker.
+info 'spatial.exe build build-config UnityClient UnityWorker' succeeded duration=0.0s category=success
+==========> Opened at 2017-11-16 12:37:24.4266327 +0100 CET
+debug Executing [spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86-win32 C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86-win32]
+debug Current directory = C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\workers\unity
+debug Found project root at C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug Found version '12.0.4' in file C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\spatialos.json
+debug Skipping extraction of [C:\Users\toma9\AppData\Local\.improbable\toolbelt\cache\worker_package\962a3e69ea9f1fffb9d484b37264ee557c666432\worker_sdk\12.0.4\core-dynamic-x86-win32.zip] to C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86-win32. Nothing has changed.
+info 'spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86-win32 C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86-win32' succeeded duration=0.0s category=success
+==========> Opened at 2017-11-16 12:37:27.5528016 +0100 CET
+debug Executing [spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86_64-win32 C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86_64-win32]
+debug Current directory = C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\workers\unity
+debug Found project root at C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug Found version '12.0.4' in file C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\spatialos.json
+debug Skipping extraction of [C:\Users\toma9\AppData\Local\.improbable\toolbelt\cache\worker_package\7420be78a72fca257615d9423e89d89ec0891982\worker_sdk\12.0.4\core-dynamic-x86_64-win32.zip] to C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86_64-win32. Nothing has changed.
+info 'spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86_64-win32 C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86_64-win32' succeeded duration=0.0s category=success
+==========> Opened at 2017-11-16 12:37:39.4930386 +0100 CET
+debug Executing [spatial.exe prepare-for-run]
+debug Current directory = C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug Found project root at C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug Found project root at C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug Building schema descriptor.
+debug Found version '12.0.4' in file C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\spatialos.json
+debug Found project root at C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug Running within a SpatialOS project, using the default input paths '[C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\schema C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\build\dependencies\schema\standard_library]'
+debug Skipping extraction of [C:\Users\toma9\AppData\Local\.improbable\toolbelt\cache\worker_package\a6c121ae37037ab942c9fee501a56b1cacf8c8ea\tools\12.0.4\schema_compiler-x86_64-win32.zip] to C:\Users\toma9\AppData\Local\.improbable\toolbelt\tools\12.0.4\schema_compiler-x86_64-win32. Nothing has changed.
+debug Skipping extraction of [C:\Users\toma9\AppData\Local\.improbable\toolbelt\cache\worker_package\a6c121ae37037ab942c9fee501a56b1cacf8c8ea\tools\12.0.4\schema_compiler-x86_64-win32.zip] to C:\Users\toma9\AppData\Local\.improbable\toolbelt\tools\12.0.4\schema_compiler-x86_64-win32. Nothing has changed.
+debug In '', C:\Users\toma9\AppData\Local\.improbable\toolbelt\tools\12.0.4\schema_compiler-x86_64-win32\schema_compiler.exe [--schema_path=C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\schema --schema_path=C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\build\dependencies\schema\standard_library --load_all_schema_on_schema_path]
+debug C:\Users\toma9\AppData\Local\.improbable\toolbelt\tools\12.0.4\schema_compiler-x86_64-win32\schema_compiler.exe: No outputs specified, validating schema only.
+info No changes detected, skipping code generation.
+info 'spatial.exe prepare-for-run' succeeded duration=0.1s category=success
+==========> Opened at 2017-11-16 12:37:54.7928274 +0100 CET
+debug Executing [spatial.exe prepare-for-run]
+debug Current directory = C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug Found project root at C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug Found project root at C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug Building schema descriptor.
+debug Found version '12.0.4' in file C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\spatialos.json
+debug Found project root at C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug Running within a SpatialOS project, using the default input paths '[C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\schema C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\build\dependencies\schema\standard_library]'
+debug Skipping extraction of [C:\Users\toma9\AppData\Local\.improbable\toolbelt\cache\worker_package\a6c121ae37037ab942c9fee501a56b1cacf8c8ea\tools\12.0.4\schema_compiler-x86_64-win32.zip] to C:\Users\toma9\AppData\Local\.improbable\toolbelt\tools\12.0.4\schema_compiler-x86_64-win32. Nothing has changed.
+debug Skipping extraction of [C:\Users\toma9\AppData\Local\.improbable\toolbelt\cache\worker_package\a6c121ae37037ab942c9fee501a56b1cacf8c8ea\tools\12.0.4\schema_compiler-x86_64-win32.zip] to C:\Users\toma9\AppData\Local\.improbable\toolbelt\tools\12.0.4\schema_compiler-x86_64-win32. Nothing has changed.
+debug In '', C:\Users\toma9\AppData\Local\.improbable\toolbelt\tools\12.0.4\schema_compiler-x86_64-win32\schema_compiler.exe [--schema_path=C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\schema --schema_path=C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\build\dependencies\schema\standard_library --load_all_schema_on_schema_path]
+debug C:\Users\toma9\AppData\Local\.improbable\toolbelt\tools\12.0.4\schema_compiler-x86_64-win32\schema_compiler.exe: No outputs specified, validating schema only.
+info No changes detected, skipping code generation.
+info 'spatial.exe prepare-for-run' succeeded duration=0.1s category=success
+==========> Opened at 2017-11-16 12:38:25.2891519 +0100 CET
+debug Executing [spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86-win32 C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86-win32]
+debug Current directory = C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\workers\unity
+debug Found project root at C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug Found version '12.0.4' in file C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\spatialos.json
+debug Skipping extraction of [C:\Users\toma9\AppData\Local\.improbable\toolbelt\cache\worker_package\962a3e69ea9f1fffb9d484b37264ee557c666432\worker_sdk\12.0.4\core-dynamic-x86-win32.zip] to C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86-win32. Nothing has changed.
+info 'spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86-win32 C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86-win32' succeeded duration=0.0s category=success
+==========> Opened at 2017-11-16 12:38:27.0038394 +0100 CET
+debug Executing [spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86_64-win32 C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86_64-win32]
+debug Current directory = C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\workers\unity
+debug Found project root at C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug Found version '12.0.4' in file C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\spatialos.json
+debug Skipping extraction of [C:\Users\toma9\AppData\Local\.improbable\toolbelt\cache\worker_package\7420be78a72fca257615d9423e89d89ec0891982\worker_sdk\12.0.4\core-dynamic-x86_64-win32.zip] to C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86_64-win32. Nothing has changed.
+info 'spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86_64-win32 C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86_64-win32' succeeded duration=0.0s category=success
+==========> Opened at 2017-11-17 11:58:35.5089774 +0100 CET
+debug Executing [spatial.exe worker launch UnityClient default]
+debug Current directory = C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug Found project root at C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug Found project root at C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug In 'C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\workers\unity', build/worker/UnityClient@Windows/UnityClient@Windows.exe [+assemblyName local_assembly +workerType UnityClient +infraServicesUrl http://127.0.0.1:21000 +projectName your_project_name_here -logfile external-default-unityclient.log]
+info Mono path[0] = 'C:/Users/toma9/Desktop/Recipe Spawn Entities at Runtime/StarterProject-master/workers/unity/build/worker/UnityClient@Windows/UnityClient@Windows_Data/Managed'
+info Mono path[1] = 'C:/Users/toma9/Desktop/Recipe Spawn Entities at Runtime/StarterProject-master/workers/unity/build/worker/UnityClient@Windows/UnityClient@Windows_Data/Mono'
+info Mono config path = 'C:/Users/toma9/Desktop/Recipe Spawn Entities at Runtime/StarterProject-master/workers/unity/build/worker/UnityClient@Windows/UnityClient@Windows_Data/Mono/etc'
+info Player data archive not found at `C:/Users/toma9/Desktop/Recipe Spawn Entities at Runtime/StarterProject-master/workers/unity/build/worker/UnityClient@Windows/UnityClient@Windows_Data/data.unity3d`, using local filesystem
+info 'spatial.exe worker launch UnityClient default' succeeded duration=26.2s category=success
+==========> Opened at 2017-11-17 11:59:11.0489057 +0100 CET
+debug Executing [spatial.exe prepare-for-run]
+debug Current directory = C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug Found project root at C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug Found project root at C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug Building schema descriptor.
+debug Found version '12.0.4' in file C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\spatialos.json
+debug Found project root at C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug Running within a SpatialOS project, using the default input paths '[C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\schema C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\build\dependencies\schema\standard_library]'
+debug Skipping extraction of [C:\Users\toma9\AppData\Local\.improbable\toolbelt\cache\worker_package\a6c121ae37037ab942c9fee501a56b1cacf8c8ea\tools\12.0.4\schema_compiler-x86_64-win32.zip] to C:\Users\toma9\AppData\Local\.improbable\toolbelt\tools\12.0.4\schema_compiler-x86_64-win32. Nothing has changed.
+debug Skipping extraction of [C:\Users\toma9\AppData\Local\.improbable\toolbelt\cache\worker_package\a6c121ae37037ab942c9fee501a56b1cacf8c8ea\tools\12.0.4\schema_compiler-x86_64-win32.zip] to C:\Users\toma9\AppData\Local\.improbable\toolbelt\tools\12.0.4\schema_compiler-x86_64-win32. Nothing has changed.
+debug In '', C:\Users\toma9\AppData\Local\.improbable\toolbelt\tools\12.0.4\schema_compiler-x86_64-win32\schema_compiler.exe [--schema_path=C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\schema --schema_path=C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\build\dependencies\schema\standard_library --load_all_schema_on_schema_path]
+debug C:\Users\toma9\AppData\Local\.improbable\toolbelt\tools\12.0.4\schema_compiler-x86_64-win32\schema_compiler.exe: No outputs specified, validating schema only.
+info No changes detected, skipping code generation.
+info 'spatial.exe prepare-for-run' succeeded duration=0.2s category=success
+==========> Opened at 2017-11-17 12:00:02.7678713 +0100 CET
+debug Executing [spatial.exe worker launch UnityClient default]
+debug Current directory = C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug Found project root at C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug Found project root at C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master
+debug In 'C:\Users\toma9\Desktop\Recipe Spawn Entities at Runtime\StarterProject-master\workers\unity', build/worker/UnityClient@Windows/UnityClient@Windows.exe [+assemblyName local_assembly +workerType UnityClient +infraServicesUrl http://127.0.0.1:21000 +projectName your_project_name_here -logfile external-default-unityclient.log]
+info Mono path[0] = 'C:/Users/toma9/Desktop/Recipe Spawn Entities at Runtime/StarterProject-master/workers/unity/build/worker/UnityClient@Windows/UnityClient@Windows_Data/Managed'
+info Mono path[1] = 'C:/Users/toma9/Desktop/Recipe Spawn Entities at Runtime/StarterProject-master/workers/unity/build/worker/UnityClient@Windows/UnityClient@Windows_Data/Mono'
+info Mono config path = 'C:/Users/toma9/Desktop/Recipe Spawn Entities at Runtime/StarterProject-master/workers/unity/build/worker/UnityClient@Windows/UnityClient@Windows_Data/Mono/etc'
+info Player data archive not found at `C:/Users/toma9/Desktop/Recipe Spawn Entities at Runtime/StarterProject-master/workers/unity/build/worker/UnityClient@Windows/UnityClient@Windows_Data/data.unity3d`, using local filesystem
+info 'spatial.exe worker launch UnityClient default' succeeded category=success duration=1m:8s
